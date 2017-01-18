@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pilih_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asmarasusanto.myapplication.PilihLevelActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:text="Pilih Level User :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textColorHighlight="#ffffff"
+        android:textColor="#000000" />
+
+    <Button
+        android:text="Perusahaan"
+        android:layout_height="100dp"
+        android:id="@+id/perusahaan"
+        android:layout_width="wrap_content"
+        android:background="#5EB4FF"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Komunitas"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/komunitas"
+        android:layout_marginTop="20dp"
+        android:background="#4B90CC"
+        android:layout_below="@+id/perusahaan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Institusi"
+        android:layout_width="match_parent"
+        android:id="@+id/institut"
+        android:layout_height="100dp"
+        android:background="#2F5A7F"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/komunitas"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

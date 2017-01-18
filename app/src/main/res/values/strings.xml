@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="googleapi">AIzaSyAKNrX0HnBjHU6hrSLOZ10_ti8R5ic8i7M</string>
+    <string name="send">Kirim</string>
+</resources>
